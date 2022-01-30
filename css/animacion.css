@@ -1,0 +1,16 @@
+.ryu{
+    width: 110px;
+    height: 131px;
+    background-image: url(../imagenes/ryu.png);
+    margin: 350px auto;
+    animation: sprite 1s steps(11) infinite;
+    transform: scale(5);
+}
+
+@keyframes sprite {
+    0%{
+        background-position-x: 0;
+    }100%{
+        background-position-x: -1200px;
+    }
+}
